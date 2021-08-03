@@ -1,0 +1,19 @@
+{
+  "name": "playground-notes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/web-playground/notes.git",
+  "author": "lif3ng <lif3ng@icloud.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.1",
+    "prettier": "2.3.2"
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
