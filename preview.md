@@ -2,6 +2,12 @@
 
 把代码中的运行结果显示在页面上
 
+## Dom
+
+直接在同一文档下的节点中预览内容，如 div 元素。可用于 CSS demo 预览，同一 CSS 属性多个值比较。
+
+需要修改 CSS rule 的每个选择器，在前面拼接上包裹容器。需要构造 CSSStyleSheet 实例， Firefox 对此目前还是个实验性功能，需要手动开启此功能 (about:config 中打开 layout.css.constructable-stylesheets.enabled).
+
 ## Shadow DOM
 
 Shadow DOM 可以隔离内外的 CSS，是 CSS 效果预览的不错方案。
