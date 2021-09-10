@@ -47,9 +47,9 @@ let view = new EditorView({
 创建 state
 
 ```js
-const state EditorState.create({
+const state = EditorState.create({
   doc: "some code",
-})
+});
 ```
 
 初始化
@@ -85,5 +85,13 @@ const changeExt = StateField.define({
 
 EditorState.create({
   extensions: [changeExt],
+});
+```
+
+### 自动换行
+
+```js
+EditorState.create({
+  extensions: [EditorView.lineWrapping],
 });
 ```
