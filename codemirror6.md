@@ -1,3 +1,7 @@
+---
+layout: ./scripts/layouts/MainLayout.astro
+---
+
 # Codemirror 6
 
 https://codemirror.net/6/
